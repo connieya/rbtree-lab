@@ -1,5 +1,4 @@
 #include "rbtree.h"
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <malloc.h>
@@ -204,4 +203,3 @@ int rbtree_to_array(const rbtree *t, key_t *arr, const size_t n) {
 //   node_t *pp = rbtree_insert(t, 102);
 //   printf("zzz %p", pp);
 // }
-
